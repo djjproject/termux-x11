@@ -1078,7 +1078,7 @@ public class MainActivity extends AppCompatActivity {
             if (!connected)
                 tryConnect();
             else
-                getLorieView().setPointerIcon(PointerIcon.getSystemIcon(this, PointerIcon.TYPE_NULL));
+                getLorieView().setPointerIcon(PointerIcon.getSystemIcon(this, PointerIcon.TYPE_ARROW));
 
             applyWindowSettings();
         });
